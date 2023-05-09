@@ -1,36 +1,35 @@
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  color: white;
 }
 
 h1 {
-    padding: 20%;
-    font-style: italic;
+  padding: 20%;
+  font-style: italic;
 }
 
 .bg {
-    background: url('../images/Stephen-Curry.jpg') no-repeat center center/cover;
-    position: absolute;
-    top: -30px;
-    left: -30px;
-    width: calc(100vw + 60px);
-    height: calc(100vh + 60px);
-    z-index: -1;
-    filter: blur(0px); 
+  background: url("../images/Stephen-Curry.jpg") no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
 }
 
 .loading-text {
-    font-size: 50px;
-    color: white;
-
+  font-size: 50px;
+  color: white;
 }
